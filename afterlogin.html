@@ -1,0 +1,110 @@
+<html>
+<head>
+<title> login for passengers</title>
+
+<link rel="stylesheet"  href="afterlogin.css" type="text/css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+    <div class="menubar">
+        <img src="logo.png" />
+    
+    <ul>
+    
+    <li><a href="home.html"><b>HOME</b></a></li>
+    <li><a href="about.html"><b>ABOUT</b></a></li>
+    <li><a href="contact.html"><b>CONTACT-US</b></a></li>
+    
+    
+    
+    </ul>
+    <div class="covi">
+        <h2> It's COVID-19 Please Wear Mask</h2>
+    
+     </div>
+    </div>
+     
+         <div class="booking">
+<div class="book">
+    <h2>Book Ticket </h2><hr>
+</div>
+
+<div class="starthere">
+
+<labelname="From" ><b>From</b></label>
+<form action="afterlogin.php" method="POST" id="Search Here">
+<input list="compart" name="source" id="From"  placeholder="click" required>
+<datalist id="compart"><option>RAMANAGARA</option>
+<option>BIDADI</option>
+<option>BANGLORE</option>
+<option>BIDAR</option>
+<option>KALBURGI</option>
+</datalist>
+
+</div>
+<div class="end">
+    <label for="" name="To"><b>To</b></label><br>
+    <input list="compartment" name="destination" id="To"  placeholder="click" required>
+    <datalist id="compartment"><option>MANDYA</option>
+    <option>MYSORE</option>
+    <option>MADDUR</option>
+    <option>HASSAN</option>
+    <option>YELAHANKA</option>
+</datalist>
+
+    <div class="date">
+        <label for=""><b>Date</b></label><br>
+        <input id="date_picker" name="d_date" type="date">
+        <script language="javascript">
+            var today = new Date();
+            var dd = String(today.getDate()+1).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+    
+            today = yyyy + '-' + mm + '-' + dd;
+            $('#date_picker').attr('min',today);
+        </script>
+    </div>
+
+ 
+   
+            
+    <div class="booknow"><br>
+        <a href="aftersearching.html"> 
+        <button type="submit" class="submit-btn">Search Here</button>
+    </a>
+    </div>
+
+
+ 
+
+
+
+</div>
+
+         </div>
+         
+         <div class="journey"><h3 style="font-family:verdana">HAPPY <br>AND<br> SAFE JOURNEY </h3></div>
+        </div>
+        
+      
+
+
+
+}
+
+
+     
+
+
+
+
+
+
+        </form>
+
+
+
+
+</body>
+</html>

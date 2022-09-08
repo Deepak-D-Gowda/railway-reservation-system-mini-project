@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(27, 25, 25);
+    background-position: center;
+    background-size: cover;
+}
+.menubar img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left:0;
+    top: 0px;
+    margin-top: 0px;
+    float: left;
+
+}
+.menubar img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:0;
+    top: 0px;
+    margin-top: 0px;
+    float: left;
+
+}
+
+
+.menubar{
+   height: 50px;
+    background-color: seashell;
+    right: 200px;
+    text-align: right;
+    
+    font-family: sans-serif;
+    
+    
+}
+
+.menubar ul{
+    position: relative;
+margin-left: 700px;
+display:inline-flex;
+font-size: 15px;
+
+list-style: none;
+color: black;
+
+}
+.menubar  li a{
+    line-height: 40px;
+    width: 120px;
+    word-spacing: 3px;  
+     margin:15px;
+    padding:1px 4px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:   sans-serif;
+}
+
+active,.menubar ul li :hover{
+    background: rgb(252, 164, 2);
+border-radius: 3px;
+}
+.covi{
+
+    left: 460px;
+    position: absolute;
+    top: 4px;
+    font-style: italic;
+text-shadow: 2px 2px 8px #070707;
+    
+    
+    }
+.head{
+    text-align: center;
+    background: rgb(255, 253, 253);
+    border-radius: 4px;
+    position: absolute;
+    left: 550px;
+    margin-top: 4px;
+}
+.table{
+
+    height: 500px;
+    width: 1050px;
+    position: relative;
+    background: linear-gradient(-65deg,rgb(243, 178, 56) 50%, rgb(240, 92, 116) 100%);
+    border-radius: 3px;
+  
+    background-size: cover;
+    
+    align-items: center;
+    padding: 5px;
+   
+    margin: 3% auto;
+    background-position: center;
+}
+.table th{
+    background-color: rgb(249, 249, 250);
+    border-radius: 1px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.table tr{
+font-size: 15px;
+font-weight: bold;
+
+
+}
+
+
+
+
+
+
+.table td{
+margin-left: 20px;
+margin: 6% auto;
+padding: 40px;
+border: 2px;
+border: rgb(247, 6, 6);
+
+}
+.btn{position: relative;
+    width: 10%;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    background: linear-gradient(#fa0355);
+    border: 10px;
+    outline: none;
+    border-radius: 20px;
+    left: 560px;
+    bottom: 70px;
+    
+}

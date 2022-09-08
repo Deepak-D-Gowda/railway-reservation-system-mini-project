@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>book for train now</title>
+    <link rel="stylesheet"  href="book.css" type="text/css">
+</head>
+<body>
+    <div class="menubar">
+        <img src="logo.png" />
+
+<ul>
+    
+<li><a href="home.html"><b>HOME</b></a></li>
+<li><a href="about.html"><b>ABOUT</b></a></li>
+<li><a href="contact.html"><b>CONTACT-US</b></a></li>
+
+
+
+</ul>
+<div class="covi">
+    <h2> It's COVID-19 Please Wear Mask</h2>
+</div>
+     </div>
+     <div class="head">
+
+     <h2>PASSENGER DETAILS</h2>
+
+    </div>
+
+    <table class="table">
+        <thead>
+            <th><b>SL.NO</b></th>
+            <th><b>Name</b></th>
+            <th><b>Gender</b></th>
+            <th><b>Age</b></th>
+            <th><b>Address</b></th>
+            
+        </thead>
+
+        <tbody>
+            <form action="book.php" method="POST">
+<tr class="row1">
+<td data-label=""> 1</td>
+<td ><input type="text" name="p_name1" placeholder="Type your name" required></td>
+<td><input list="gender" name="p_gender1" placeholder="Select Gender" required>  
+<datalist id="gender"><option>male</option>
+<option>female</option></datalist>
+<td><input type="number" name="p_age1" placeholder="Select Age" required>Year</td>
+<td ><input type="text" name="p_address1" placeholder="Type your address" required></td> 
+    </datalist>
+
+</tr>
+
+<tr class="row2">
+    <td data-label=""> 2</td>
+    <td><input type="text" name="p_name2"  placeholder="Type your name"></td>
+    <td><input list="gender" name="p_gender2" placeholder="Select Gender">  
+    <datalist id="gender"><option>male</option>
+    <option>female</option></datalist>
+    <td><input type="number" name="p_age2" placeholder="Select Age">Year</td>
+    <td ><input type="text" name="p_address2" placeholder="Type your address"></td>
+</datalist>
+    
+    </tr>
+    <tr class="row3">
+        <td data-label=""> 3</td>
+        <td><input type="text" name="p_name3"  placeholder="Type your name"></td>
+        <td><input list="gender" name="p_gender3" placeholder="Select Gender">  
+        <datalist id="gender"><option>male</option>
+        <option>female</option></datalist>
+        <td><input type="number" name="p_age3" placeholder="Select Age">Year</td>
+        <td ><input type="text" name="p_address3" placeholder="Type your address"></td>
+    </datalist>
+        
+        </tr>
+        <tr class="row4">
+            <td data-label=""> 4</td>
+            <td><input type="text" name="p_name4" placeholder="Type your name"></td>
+            <td><input list="gender"  name="p_gender4" placeholder="Select Gender">  
+            <datalist id="gender"><option>male</option>
+            <option>female</option></datalist>
+            <td><input type="number" name="p_age4" placeholder="Select Age">Year</td>
+            <td ><input type="text" name="p_address4" placeholder="Type your address"></td>
+        </datalist>
+            
+            </tr>
+
+           
+
+           
+                 </tbody>
+    </table>
+    <a href="payment.html">
+<button type="submit" class="btn"> Submit</button>
+</a>
+</form> 
+
+</body>
+
+</html>

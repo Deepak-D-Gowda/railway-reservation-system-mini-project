@@ -1,0 +1,103 @@
+<html>
+
+<head>
+<link rel=" stylesheet" href="stylebook here.css">
+</head>
+
+<body>
+    <div class="menubar">
+        <img src="logo.png" />
+
+<ul>
+    
+<li><a href="home.html"><b>HOME</b></a></li>
+<li><a href="about.html"><b>ABOUT</b></a></li>
+<li><a href="contact.html"><b>CONTACT-US</b></a></li>
+
+
+
+</ul>
+<div class="covi">
+    <h2> It's COVID-19 Please Wear Mask</h2>
+
+     </div>
+    </div>
+
+<div class="register">
+
+    
+    <div class="formbox">  
+        <div class="button-box">
+            <div id="btn"></div>
+<button  type="button" class="toggle-btn" onclick="login()">Login</button>
+<button  type="button" class="toggle-btn"onclick="register()">Register</button>
+
+
+        
+
+        </div>
+        <div class="social-icons">
+            <img src="facebook.png">
+        
+    </div>
+<form action="login.php" method="POST" id="login" class="input">
+<input type="text" name="email" id="emailid" class="input-field" placeholder="email id" required>
+<br>
+<input type="password" name="Password" id="enterpassword" class="input-field" placeholder="enter password" required>
+<input type="checkbox" class="check-box"><span>remember password</span>
+<a href="afterlogin.html"></a>
+<button type="submit" class="submit-btn" >LOGIN </button>
+
+</form>
+<form action='register.php' method="POST"  id="register"  class="input">
+    
+    <input type="text" name="p_name" id="name" class="input-field" placeholder="Full Name" required>
+    <input type="text" name="p_age" id="age" class="input-field" placeholder="Age:" maxlength="3" required> 
+    <input type="text" name="p_mobile" id="mobile" class="input-field" placeholder="Mobile no:"  maxlength="10" required>
+    <input list="compartment" name="p_gender" id="gender"  placeholder="Gender">
+            <datalist id="compartment"><option>male</option>
+            <option>female</option></datalist>
+        
+    <input type="email" name="p_email" id="email" class="input-field" placeholder="E-mail ID:" required>
+    <input type="password" name="p_password" id="pass" class="input-field" placeholder="Enter password:" required>
+    <input type="password" name="confirm" id="confirm" class="input-field" placeholder="Confirm password:" required>
+    <input type="checkbox" class="check-box"><span>i agree the terms & condition</span>
+    <a href="register"></a>
+    <button type="submit" class="submit-btn">REGISTER</button>
+   
+    </form>
+</div>
+</div>
+
+
+<script>
+var x= document.getElementById("login");
+var y= document.getElementById("register");
+var z= document.getElementById("btn");
+
+
+function register(){
+    x.style.left="-400px";
+    y.style.left="50px";
+    z.style.left="110px";
+}
+function login(){
+    x.style.left="50px";
+    y.style.left="450px";
+    z.style.left="0px";
+}
+</script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

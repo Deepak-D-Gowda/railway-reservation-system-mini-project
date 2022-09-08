@@ -1,0 +1,55 @@
+<html>
+<head>
+<title> login for passengers</title>
+
+<link rel="stylesheet"  href="payment.css" type="text/css">
+</head>
+<body>
+    <div class="menubar">
+        <img src="logo.png" />
+    
+    <ul>
+    
+    <li><a href="home.html"><b>HOME</b></a></li>
+    <li><a href="about.html"><b>ABOUT</b></a></li>
+    <li><a href="contact.html"><b>CONTACT-US</b></a></li>
+    </ul>
+    <div class="covi">
+        <h2> It's COVID-19 Please Wear Mask</h2>
+    </div>
+</div>
+<div class="header">
+    <h2>MAKE PAYMENT WITH CARD</h2>
+</div>
+<div class="payment">
+    <h2>Payment Details</h2>
+</div>
+
+<div class="format"><br><br><br>
+    
+<form  action="payment.php" method="POST" id="class" class="input">
+    Card Number:<input type="text" name="card_num" class="text" maxlength="16" placeholder="card number"   required> <br><br><br>
+    Name on card:<input type="text" name="card_holder" class="text"  placeholder="name on card" required> <br><br><br>
+    
+    Card Enquiry<input type="month" name="card_enquiry" class="text" required><br><br><br>
+    CVV Number<input type="password"   name="cvv_num"  class="text" maxlength="3"  required><br>  <br><br> 
+   
+     </div>
+<div class="payment">
+    <h2>Payment Details</h2>
+</div>
+
+<a href="sum.php">
+<button type="submit " class="btn"> SUBMIT</button>
+
+</a>
+
+
+
+
+</form>
+</body>
+
+
+
+</html>

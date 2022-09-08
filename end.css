@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+.menubar img{
+  height: 70px;
+  width: 70px;
+  position: relative;
+  left:0;
+  top: 0px;
+  margin-top: 0px;
+  float: left;
+
+}
+.menubar img{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left:0;
+  top: 0px;
+  margin-top: 0px;
+  float: left;
+
+}
+
+
+.menubar{
+ height: 50px;
+  background-color: seashell;
+  right: 200px;
+  text-align: right;
+  
+  font-family: sans-serif;
+  
+  
+}
+
+.menubar ul{
+  position: relative;
+margin-left: 700px;
+display:inline-flex;
+font-size: 15px;
+
+list-style: none;
+color: black;
+
+}
+.menubar  li a{
+  line-height: 40px;
+  width: 120px;
+  word-spacing: 3px;  
+   margin:15px;
+  padding:1px 4px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family:   sans-serif;
+}
+
+active,.menubar ul li :hover{
+  background: rgb(252, 164, 2);
+border-radius: 3px;
+box-shadow: 0 3px 4px 3px rebeccapurple;
+}
+.covi{
+
+  left: 460px;
+  position: absolute;
+  top: 4px;
+  font-style: italic;
+text-shadow: 2px 2px 8px #070707;
+  
+  }
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+/* BODY */
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 64, 87);
+  background-image: -webkit-linear-gradient(90deg, rgb(5, 68, 94) 0%, rgb(155, 65, 207) 100%);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+  font-family: "Luckiest Guy", cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: transparent;
+}
+/* CLOUDS */
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-radius: 100%;
+  background: transparent;
+  display: block;
+  box-shadow: 0 0 150px 100px rgba(255, 255, 255, 0.6),
+    200px 0 200px 150px rgba(255, 255, 255, 0.6),
+    -250px 0 300px 150px rgba(255, 255, 255, 0.6),
+    550px 0 300px 200px rgba(255, 255, 255, 0.6),
+    -550px 0 300px 200px rgba(255, 255, 255, 0.6);
+}
+/* JUMP */
+h1 {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.5s ease infinite alternate;
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h1 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h1 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+.head h2{
+
+  position: absolute;
+  top: 110px;
+  left: 370px;
+  align-items: center;
+text-align: center;
+  font-size: 30px;
+
+
+}

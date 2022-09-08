@@ -1,0 +1,312 @@
+<html>
+<head>
+<title> login for passengers</title>
+
+
+</head>
+<style>
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image:url(background.jpg);
+   
+    background-position: center;
+    background-size: cover;
+}
+
+
+.menubar img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:0;
+    top: 0px;
+    margin-top: 0px;
+    float: left;
+
+}
+
+
+.menubar{
+   height: 50px;
+    background-color: seashell;
+    right: 200px;
+    text-align: right;
+    
+    font-family: sans-serif;
+    
+    
+}
+
+.menubar ul{
+    position: relative;
+margin-left: 700px;
+display:inline-flex;
+font-size: 15px;
+
+list-style: none;
+color: black;
+
+}
+.menubar  li a{
+    line-height: 40px;
+    width: 120px;
+    word-spacing: 3px;  
+     margin:15px;
+    padding:1px 4px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:   sans-serif;
+}
+
+active,.menubar ul li :hover{
+    background: rgb(252, 164, 2);
+border-radius: 3px;
+box-shadow: 0 3px 4px 3px rebeccapurple;
+}
+.covi{
+
+    left: 460px;
+    position: absolute;
+    top: 4px;
+    font-style: italic;
+text-shadow: 2px 2px 8px #070707;
+    
+    
+    }
+
+.booking{
+    width: 320px;
+    height: 400px;
+    bottom: -20px;
+    position: relative;
+    background: linear-gradient();
+animation: animate 10s linear infinite;
+
+    align-items: center;
+    padding: 5px;
+    overflow: hidden;
+    margin: 6% auto;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 3px 4px black;
+}
+.booking .book{
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 25px;
+   
+}
+.starthere{
+    font-family: sans-serif;
+    font-size: 20px; 
+    margin: 12px;
+    word-spacing: 5px;
+   
+   
+    margin-left: 35px;
+    
+
+
+}
+.starthere input{
+    width: 250px;
+height: 25px;
+}
+
+
+.end{
+    font-family: sans-serif;
+    font-size: 20px; 
+    margin: 20px;
+    word-spacing: 5px;
+   
+ 
+    margin-left: 35px;
+    
+
+}
+.end input{
+    width: 250px;
+height: 25px;
+}
+
+.date{ font-family: sans-serif;
+    font-size: 20px; 
+    margin: 0px;
+    word-spacing: 5px;
+   
+ 
+    margin-left: -1px;
+}
+.date input{
+    width: 250px;
+height: 25px;
+}
+
+.ending{
+    font-family: sans-serif;
+    font-size: 20px; 
+    margin: 0px;
+    word-spacing: 5px;
+   
+ margin-left: 1px;
+   
+}
+.ending input{
+    width: 250px;
+height: 25px;
+}
+
+
+.blockend{
+
+    font-family: sans-serif;
+    font-size: 20px; 
+    margin: 15px;
+    word-spacing: 3px;
+   text-align: left;
+    padding-top: 20px;
+    margin-left: 3px
+}
+
+.journey{ font-family: sans-serif;
+    padding-top: 70px;
+
+}
+.booknow  .submit-btn{
+    position: absolute;
+    margin-top: 20px;
+    padding-top: 1px;
+    text-align: center;
+    background: rgb(189, 178, 134);
+    border: none;
+    padding: 3px 6px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 3px;
+    left: 40%;
+    align-items: center;
+
+
+}
+.booknow :hover{
+color: red;
+
+}
+.booknow  .submit-btn:hover{
+
+    box-shadow: 0px 5px 7px 9px rgb(249, 250, 250);
+}
+
+
+</style>
+<body>
+    <div class="menubar">
+        <img src="logo.png" />
+    
+    <ul>
+    
+    <li><a href="home.html"><b>HOME</b></a></li>
+    <li><a href="about.html"><b>ABOUT</b></a></li>
+    <li><a href="contact.html"><b>CONTACT-US</b></a></li>
+    
+    
+    
+    </ul>
+    <div class="covi">
+        <h2> It's COVID-19 Please Wear Mask</h2>
+    
+     </div>
+    </div>
+     
+         <div class="booking">
+
+
+<div class="starthere"><br>
+
+    <label name="Train names" ><b>Train Names</b></label>
+    <form action="aftersearching.php" method="POST" id="next">
+    <input list="trains" name="t_name" id="Train names"  placeholder="click" required>
+    <datalist id="trains"><option>RAMANAGARA EXPRESS</option>
+    <option>VISHVAMANAVA</option>
+    <option>AMARAVATHI EXPRESS</option>
+    <option>ARSIKERE-MYSORE PASSENGER</option>
+    <option>MYSORE VARANASI EXPRESS</option>
+    <option>BANGLORE PASSENGER</option>
+    </datalist>
+
+</div>
+<div class="end"><br>
+    <label for="" name="Train Number"><b>Train Number</b></label>
+    <input list="train_number" name="t_number" id="Train Number"  placeholder="click" required>
+    <datalist id="train_number"><option>322801</option>
+    <option>348760</option>
+    <option>786501</option>
+    <option>965430</option>
+    <option>636444</option>
+    <option>350891</option>
+    <option>486960</option>
+</datalist><br>
+
+    <div class="date"><br>
+        <label for="" name="Train Time"><b>Train Time</b></label>
+        <input list="train_tim" name="t_time" id="Train Time"  placeholder="click" required>
+        <datalist id="train_tim"><option>1:15AM</option>
+            <option>5:15AM</option>
+        <option>9:00AM</option>
+        <option>12:05PM</option>
+        <option>2:40PM</option>
+        <option>4:40PM</option>
+    </datalist>
+
+
+
+    <div class="ending"><br>
+        <label for="" name="Train type"><b>Train Type</b></label>
+        <input list="train_typ" name="t_type" id="Train type"  placeholder="click" required>
+        <datalist id="train_typ"><option>GENERAL - 80/-</option>
+        <option>EXPRESS - 150/-</option>
+        <option>SLEEPER - 180/-</option>
+    </datalist>
+
+    
+
+    <div class="booknow"><br>
+        
+        <button type="submit" class="submit-btn"> NEXT </button>
+    
+    </div>
+
+    </div>
+    
+
+    </div>
+
+
+
+</div>
+
+         </div>
+         
+
+     
+
+
+
+
+
+
+        </form>
+
+
+
+
+</body>
+</html>

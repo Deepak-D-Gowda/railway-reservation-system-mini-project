@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background:linear-gradient(-235deg,rgb(74, 74, 238),grey)
+      
+    }
+    
+    
+    .menubar img{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        left:0;
+        top: 0px;
+        margin-top: 0px;
+        float: left;
+    
+    }
+    
+    
+    .menubar{
+       height: 50px;
+        background-color: seashell;
+        right: 200px;
+        text-align: right;
+        
+        font-family: sans-serif;
+        
+        
+    }
+    
+    .menubar ul{
+        position: relative;
+    margin-left: 700px;
+    display:inline-flex;
+    font-size: 15px;
+    
+    list-style: none;
+    color: black;
+    
+    }
+    .menubar  li a{
+        line-height: 40px;
+        width: 120px;
+        word-spacing: 3px;  
+         margin:15px;
+        padding:1px 4px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family:   sans-serif;
+    }
+    
+    active,.menubar ul li :hover{
+        background: rgb(252, 164, 2);
+    border-radius: 3px;
+    box-shadow: 0 3px 4px 3px rebeccapurple;
+    }
+    .covi{
+
+        left: 460px;
+        position: absolute;
+        top: 4px;
+        font-style: italic;
+text-shadow: 2px 2px 8px #070707;
+        
+        
+        }
+    .header{
+        text-align: center;
+        position: relative;
+        top: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .blue{ width: 450px;
+        height: 500px;
+        position: relative;
+        background: rgb(3, 1, 75);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        bottom: 630px;
+        left: 60px;
+    }
+
+
+    .whitepage{
+
+        width: 1100px;
+        height: 700px;
+        position: relative;
+        background: white;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        left: 150px;
+
+    }
+    .info{
+        width: 10px;
+        height: 10px;
+       
+       resize: horizontal;
+        position: relative;
+        margin: 20px 40px;
+        background-position: center;
+        left: 40px;
+        background-size: cover;
+        bottom: 1080px;
+       
+        
+
+
+    }
+    
+    .info1{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        padding-bottom: 30px;
+        left: 80px;
+        bottom: 180px;
+        
+        background-position: center;
+        background-size: cover;
+
+
+    }
+    .info2{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        
+        left: 80px;
+        bottom: 60px;
+        
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    .infodetails{
+        position: absolute;
+        bottom: 300px;
+        left: 199;
+        color: rgb(247, 245, 245);
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .infodetailsmail{
+        position: absolute;
+        bottom: 197px;
+        color: white;
+        left: 199;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .infodetailcontact{
+        position: absolute;
+        bottom: 70px;
+        color: white;
+        left: 199;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .mess{
+        position: absolute;
+        bottom: 440px;
+        color: rgb(255, 106, 6);
+        left: 640;
+        font-size: 18px;
+        font-weight: bold;
+}
+.names{
+
+    position: relative;
+    bottom: 1100px;
+    left: 550px;
+   
+    padding-right: 40px;
+    padding:10px 50px;
+    word-spacing: 5px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: tomato;
+    outline-style: none;
+    border: none;
+    
+    
+    
+    
+
+
+}
+input { 
+    width: 14%;
+    height:30px;
+    border-radius: 4px;
+    margin: 8px ;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 4s;
+}
+input :focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 750px;
+  top: 670px;
+  transition-duration: .4s;
+}
+.button:hover{
+    box-shadow: 0 3px 4px 6px black;
+    border-radius: 1px;
+    border: black;
+    
+}
